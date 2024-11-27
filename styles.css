@@ -1,0 +1,140 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo geral */
+  body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: linear-gradient(135deg, #00074b, #004e92);
+    overflow-x: hidden;
+  }
+  
+  /* Header */
+  .header {
+    text-align: center;
+    padding: 100px 20px;
+    background: radial-gradient(circle, #212f36, #000000);
+  }
+  
+  .header-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffe3af;
+  }
+  
+  .header-text p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #ffffff;
+  }
+
+  .foto img {
+    text-align: center;
+    width: 300px;
+    background-color: #12121200;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  /* Prêmios e Competições */
+  .awards {
+    background-color: #091014;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .awards h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .awards ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .awards li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #c7c7c7;
+  }
+  
+  /* Projetos */
+  .projects {
+    background-color: #0e141f;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .projects h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .project-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  .project-item {
+    flex: 0 0 auto;
+    width: 300px;
+    text-align: center;
+    background-color: #121212;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  
+  .project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .project-item p {
+    color: #c7c7c7;
+    font-size: 1rem;
+  }
+  
+  /* Contato */
+  .contact {
+    background-color: #0a0a0a;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 1.2rem;
+    color: #c7c7c7;
+  }
+  
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .contact-icons a img {
+    width: 40px;
+    height: 40px;
+    filter: invert(100%);
+    transition: transform 0.3s;
+  }
+  
+  .contact-icons a img:hover {
+    transform: scale(1.2);
+  }
+  
